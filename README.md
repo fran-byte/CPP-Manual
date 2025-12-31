@@ -24,13 +24,13 @@
 
 ## Introducción
 
-**Explicación**: Esta sección presenta el manual y su propósito, explicando que está diseñado para guiar a través del repositorio CPP_Piscine, que contiene 10 módulos progresivos que enseñan C++ desde lo básico hasta conceptos avanzados utilizando el estándar C++98.
+Esta sección presenta el manual y su propósito, explicando que está diseñado para guiar a través del repositorio CPP_Piscine, que contiene 10 módulos progresivos que enseñan C++ desde lo básico hasta conceptos avanzados utilizando el estándar C++98.
 
 Este manual está diseñado para llevarte desde cero hasta el nivel necesario para resolver todos los ejercicios del repositorio **CPP_Piscine**. El repositorio contiene 10 módulos progresivos que enseñan C++ siguiendo el estándar C++98, desde conceptos básicos hasta programación avanzada con STL.<cite/>
 
 ### Estructura del Repositorio
 
-**Explicación**: Presenta una tabla organizada de los 10 módulos del repositorio, mostrando el enfoque principal y ejercicios clave de cada uno para proporcionar una visión general del aprendizaje progresivo.
+Presenta una tabla organizada de los 10 módulos del repositorio, mostrando el enfoque principal y ejercicios clave de cada uno para proporcionar una visión general del aprendizaje progresivo.
 
 El repositorio está organizado en 10 módulos, cada uno enfocado en conceptos específicos:<cite/>
 
@@ -51,11 +51,11 @@ El repositorio está organizado en 10 módulos, cada uno enfocado en conceptos e
 
 ## Fundamentos de C++
 
-**Explicación**: Esta sección cubre los conceptos básicos esenciales de programación en C++, incluyendo la estructura de programas, directivas de preprocesador y sistemas de compilación con Makefiles.
+Esta sección cubre los conceptos básicos esenciales de programación en C++, incluyendo la estructura de programas, directivas de preprocesador y sistemas de compilación con Makefiles.
 
 ### Estructura Básica de un Programa
 
-**Explicación**: Explica que todo programa C++ comienza con la función `main()`, mostrando un ejemplo práctico del ejercicio PhoneBook que ilustra un bucle principal de entrada de usuario.
+Explica que todo programa C++ comienza con la función `main()`, mostrando un ejemplo práctico del ejercicio PhoneBook que ilustra un bucle principal de entrada de usuario.
 
 Todo programa en C++ comienza con la función `main()`. Observa la estructura básica en el ejercicio PhoneBook:<cite/>
 
@@ -78,7 +78,7 @@ int main(void)
 
 ### Directivas de Preprocesador
 
-**Explicación**: Describe las directivas `#include` para incluir cabeceras, diferenciando entre cabeceras estándar de la biblioteca y cabeceras personalizadas del proyecto.
+Describe las directivas `#include` para incluir cabeceras, diferenciando entre cabeceras estándar de la biblioteca y cabeceras personalizadas del proyecto.
 
 Las directivas `#include` permiten incluir cabeceras. En este repositorio se usan dos tipos:<cite/>
 
@@ -94,7 +94,7 @@ Las directivas `#include` permiten incluir cabeceras. En este repositorio se usa
 
 ### Compilación y Makefiles
 
-**Explicación**: Muestra el sistema de compilación estandarizado usado en todos los módulos, con Makefiles que siguen el estándar C++98 y configuraciones de flags específicas.
+Muestra el sistema de compilación estandarizado usado en todos los módulos, con Makefiles que siguen el estándar C++98 y configuraciones de flags específicas.
 
 Todos los módulos usan un sistema de compilación consistente con Makefiles que siguen el estándar C++98:<cite/>
 
@@ -107,11 +107,11 @@ CXXFLAGS = -Wall -Wextra -Werror -Wshadow -std=c++98 -I inc
 
 ## Variables y Tipos de Datos
 
-**Explicación**: Esta sección presenta los tipos de datos fundamentales en C++, métodos de declaración e inicialización, y el uso de constantes para valores inmutables.
+Esta sección presenta los tipos de datos fundamentales en C++, métodos de declaración e inicialización, y el uso de constantes para valores inmutables.
 
 ### Tipos Fundamentales
 
-**Explicación**: Lista los tipos básicos de datos utilizados en los ejercicios del repositorio, incluyendo tipos primitivos y la clase `std::string` para manejo de cadenas.
+Lista los tipos básicos de datos utilizados en los ejercicios del repositorio, incluyendo tipos primitivos y la clase `std::string` para manejo de cadenas.
 
 En los ejercicios del repositorio encontrarás los siguientes tipos básicos:<cite/>
 
@@ -126,7 +126,7 @@ std::string // Cadenas de texto
 
 ### Declaración e Inicialización
 
-**Explicación**: Muestra ejemplos prácticos de declaración e inicialización de variables, usando el ejercicio BitcoinExchange para ilustrar tipos comunes.
+Muestra ejemplos prácticos de declaración e inicialización de variables, usando el ejercicio BitcoinExchange para ilustrar tipos comunes.
 
 Ejemplo del ejercicio BitcoinExchange:<cite/>
 
@@ -139,7 +139,7 @@ std::map<int, float> database;
 
 ### Constantes
 
-**Explicación**: Explica el uso de la palabra clave `const` para declarar valores inmutables, con ejemplos tomados del ejercicio Fixed.
+Explica el uso de la palabra clave `const` para declarar valores inmutables, con ejemplos tomados del ejercicio Fixed.
 
 Usa `const` para declarar valores inmutables:<cite/>
 
@@ -152,11 +152,11 @@ Fixed const c(42.42f);
 
 ## Operadores
 
-**Explicación**: Esta sección cubre los diferentes tipos de operadores en C++, incluyendo operadores aritméticos, de comparación y de asignación.
+Esta sección cubre los diferentes tipos de operadores en C++, incluyendo operadores aritméticos, de comparación y de asignación.
 
 ### Operadores Aritméticos
 
-**Explicación**: Muestra operadores aritméticos básicos implementados mediante sobrecarga en el ejercicio Fixed, permitiendo operaciones matemáticas con objetos.
+Muestra operadores aritméticos básicos implementados mediante sobrecarga en el ejercicio Fixed, permitiendo operaciones matemáticas con objetos.
 
 En el ejercicio Fixed se implementan operaciones aritméticas con sobrecarga:<cite/>
 
@@ -171,7 +171,7 @@ result = a / b;        // División
 
 ### Operadores de Comparación
 
-**Explicación**: Presenta operadores de comparación comunes utilizados en estructuras condicionales para evaluar relaciones entre valores.
+Presenta operadores de comparación comunes utilizados en estructuras condicionales para evaluar relaciones entre valores.
 
 ```cpp
 if (a == b)  // Igualdad
@@ -182,7 +182,7 @@ if (a > b)   // Mayor que
 
 ### Operadores de Asignación
 
-**Explicación**: Explica operadores de asignación simple y compuestos que modifican el valor de variables u objetos mediante operaciones combinadas.
+Explica operadores de asignación simple y compuestos que modifican el valor de variables u objetos mediante operaciones combinadas.
 
 ```cpp
 a = b;        // Asignación simple
@@ -194,11 +194,11 @@ a -= b;       // Resta y asignación
 
 ## Control de Flujo
 
-**Explicación**: Esta sección describe estructuras de control para dirigir la ejecución del programa, incluyendo condicionales y bucles.
+Esta sección describe estructuras de control para dirigir la ejecución del programa, incluyendo condicionales y bucles.
 
 ### Condicionales if-else
 
-**Explicación**: Muestra estructuras condicionales utilizadas en el ejercicio PhoneBook para procesar comandos de entrada del usuario.
+Muestra estructuras condicionales utilizadas en el ejercicio PhoneBook para procesar comandos de entrada del usuario.
 
 Ejemplo del ejercicio PhoneBook:<cite/>
 
@@ -214,11 +214,11 @@ if (input == "ADD" || input == "A")
 
 ### Bucles
 
-**Explicación**: Subsección que presenta diferentes tipos de bucles utilizados para repetición de código, con ejemplos específicos.
+Subsección que presenta diferentes tipos de bucles utilizados para repetición de código, con ejemplos específicos.
 
 #### Bucle for
 
-**Explicación**: Ejemplo de bucle `for` que itera un número específico de veces, utilizado para acceder a elementos de un array.
+Ejemplo de bucle `for` que itera un número específico de veces, utilizado para acceder a elementos de un array.
 
 ```cpp
 for (int i = 0; i < limit; i++)
@@ -230,7 +230,7 @@ for (int i = 0; i < limit; i++)
 
 #### Bucle while
 
-**Explicación**: Muestra un bucle `while` infinito que procesa entrada del usuario hasta cumplir ciertas condiciones.
+Muestra un bucle `while` infinito que procesa entrada del usuario hasta cumplir ciertas condiciones.
 
 ```cpp
 while (true)
@@ -247,11 +247,11 @@ while (true)
 
 ## Funciones
 
-**Explicación**: Esta sección cubre la creación y uso de funciones en C++, incluyendo declaración, definición, parámetros, retorno y sobrecarga.
+Esta sección cubre la creación y uso de funciones en C++, incluyendo declaración, definición, parámetros, retorno y sobrecarga.
 
 ### Declaración y Definición
 
-**Explicación**: Explica la separación entre declaración (prototipo) en archivos de cabecera y definición (implementación) en archivos de código fuente.
+Explica la separación entre declaración (prototipo) en archivos de cabecera y definición (implementación) en archivos de código fuente.
 
 Las funciones en C++ tienen una declaración (prototipo) y una definición:<cite/>
 
@@ -269,7 +269,7 @@ void PhoneBook::add_contact()
 
 ### Parámetros y Retorno
 
-**Explicación**: Muestra ejemplos de funciones con parámetros y valores de retorno, ilustrando cómo las funciones procesan datos.
+Muestra ejemplos de funciones con parámetros y valores de retorno, ilustrando cómo las funciones procesan datos.
 
 ```cpp
 int parse_date(std::string& dateString, std::string file)
@@ -282,7 +282,7 @@ int parse_date(std::string& dateString, std::string file)
 
 ### Sobrecarga de Funciones
 
-**Explicación**: Presenta el concepto de sobrecarga de funciones, permitiendo múltiples funciones con el mismo nombre pero diferentes parámetros.
+Presenta el concepto de sobrecarga de funciones, permitiendo múltiples funciones con el mismo nombre pero diferentes parámetros.
 
 Puedes tener múltiples funciones con el mismo nombre pero diferentes parámetros:<cite/>
 
@@ -296,11 +296,11 @@ void addRange(int min, int max);
 
 ## Arrays y Strings
 
-**Explicación**: Esta sección cubre estructuras de datos básicas para almacenamiento de elementos, incluyendo arrays estáticos y cadenas de texto.
+Esta sección cubre estructuras de datos básicas para almacenamiento de elementos, incluyendo arrays estáticos y cadenas de texto.
 
 ### Arrays Estáticos
 
-**Explicación**: Muestra la declaración e inicialización de arrays estáticos con tamaño fijo, y cómo calcular el tamaño del array.
+Muestra la declaración e inicialización de arrays estáticos con tamaño fijo, y cómo calcular el tamaño del array.
 
 ```cpp
 int const amounts[] = {42, 54, 957, 432, 1234, 0, 754, 16576};
@@ -309,7 +309,7 @@ size_t const amounts_size = sizeof(amounts) / sizeof(int);
 
 ### std::string
 
-**Explicación**: Presenta la clase `std::string` como alternativa segura y flexible a arrays de caracteres, con métodos para entrada/salida.
+Presenta la clase `std::string` como alternativa segura y flexible a arrays de caracteres, con métodos para entrada/salida.
 
 La clase `std::string` proporciona operaciones seguras con cadenas:<cite/>
 
@@ -323,7 +323,7 @@ if (input == "EXIT" || input == "E")
 
 ### std::vector
 
-**Explicación**: Introduce `std::vector` como contenedor dinámico versátil de la STL, mostrando operaciones básicas como inserción.
+Introduce `std::vector` como contenedor dinámico versátil de la STL, mostrando operaciones básicas como inserción.
 
 Contenedor dinámico usado extensivamente en los ejercicios:<cite/>
 
@@ -337,11 +337,11 @@ std::sort(sortedNumbers.begin(), sortedNumbers.end());
 
 ## Punteros y Referencias
 
-**Explicación**: Esta sección explica mecanismos para manejar memoria y crear alias de variables, fundamentales para gestión de recursos.
+Esta sección explica mecanismos para manejar memoria y crear alias de variables, fundamentales para gestión de recursos.
 
 ### Punteros
 
-**Explicación**: Describe punteros como variables que almacenan direcciones de memoria, con ejemplos de uso en el ejercicio Animal/Brain.
+Describe punteros como variables que almacenan direcciones de memoria, con ejemplos de uso en el ejercicio Animal/Brain.
 
 Los punteros almacenan direcciones de memoria. En el ejercicio Animal/Brain:<cite/>
 
@@ -357,7 +357,7 @@ delete brain;
 
 ### Referencias
 
-**Explicación**: Explica referencias como alias de variables existentes, mostrando ejemplos de referencias constantes y referencias a punteros.
+Explica referencias como alias de variables existentes, mostrando ejemplos de referencias constantes y referencias a punteros.
 
 Las referencias son alias de otras variables:<cite/>
 
@@ -368,11 +368,11 @@ AMateria* & getMateria(int idx);      // Referencia a puntero
 
 ### Gestión de Memoria
 
-**Explicación**: Subsección que cubre operadores para asignación y liberación de memoria dinámica, esenciales para manejo manual.
+Subsección que cubre operadores para asignación y liberación de memoria dinámica, esenciales para manejo manual.
 
 #### new y delete
 
-**Explicación**: Muestra el uso de `new` para crear objetos dinámicos y `delete` para liberar la memoria asignada.
+Muestra el uso de `new` para crear objetos dinámicos y `delete` para liberar la memoria asignada.
 
 ```cpp
 // Asignación dinámica
@@ -384,7 +384,7 @@ delete materia;
 
 #### Arrays dinámicos
 
-**Explicación**: Presenta la creación y eliminación de arrays dinámicos usando `new[]` y `delete[]`, con ejemplo de array de enteros.
+Presenta la creación y eliminación de arrays dinámicos usando `new[]` y `delete[]`, con ejemplo de array de enteros.
 
 ```cpp
 // Crear array dinámico
@@ -398,15 +398,15 @@ delete [] mirror;
 
 ## Programación Orientada a Objetos
 
-**Explicación**: Esta sección cubre los principios fundamentales de POO en C++, incluyendo clases, objetos, herencia y polimorfismo.
+Esta sección cubre los principios fundamentales de POO en C++, incluyendo clases, objetos, herencia y polimorfismo.
 
 ### Clases y Objetos
 
-**Explicación**: Subsección que introduce los conceptos básicos de clases como plantillas para objetos, con ejemplos de definición.
+Subsección que introduce los conceptos básicos de clases como plantillas para objetos, con ejemplos de definición.
 
 #### Definición de Clase
 
-**Explicación**: Muestra la estructura básica de una clase con secciones privadas y públicas, usando PhoneBook como ejemplo.
+Muestra la estructura básica de una clase con secciones privadas y públicas, usando PhoneBook como ejemplo.
 
 ```cpp
 class PhoneBook
@@ -424,7 +424,7 @@ public:
 
 #### Constructores
 
-**Explicación**: Presenta diferentes tipos de constructores: por defecto y de copia, con ejemplos que muestran inicialización.
+Presenta diferentes tipos de constructores: por defecto y de copia, con ejemplos que muestran inicialización.
 
 ```cpp
 // Constructor por defecto
@@ -443,7 +443,7 @@ Cat::Cat(const Cat& f) : Animal(f)
 
 #### Destructor
 
-**Explicación**: Ejemplo de destructor que libera memoria dinámica, mostrando la importancia de limpieza de recursos.
+Ejemplo de destructor que libera memoria dinámica, mostrando la importancia de limpieza de recursos.
 
 ```cpp
 Cat::~Cat()
@@ -454,11 +454,11 @@ Cat::~Cat()
 
 ### Herencia
 
-**Explicación**: Subsección que explica el mecanismo de herencia para crear jerarquías de clases, permitiendo reutilización.
+Subsección que explica el mecanismo de herencia para crear jerarquías de clases, permitiendo reutilización.
 
 #### Herencia Simple
 
-**Explicación**: Muestra herencia simple con clase base virtual, usando ScavTrap como ejemplo que hereda de ClapTrap.
+Muestra herencia simple con clase base virtual, usando ScavTrap como ejemplo que hereda de ClapTrap.
 
 ```cpp
 class ScavTrap : public virtual ClapTrap
@@ -471,7 +471,7 @@ public:
 
 #### Herencia Múltiple y Virtual
 
-**Explicación**: Ejemplo de herencia múltiple con DiamondTrap que hereda de dos clases diferentes, ilustrando el problema del diamante.
+Ejemplo de herencia múltiple con DiamondTrap que hereda de dos clases diferentes, ilustrando el problema del diamante.
 
 ```cpp
 class DiamondTrap : public ScavTrap, public FragTrap
@@ -484,11 +484,11 @@ public:
 
 ### Polimorfismo
 
-**Explicación**: Subsección que cubre polimorfismo como mecanismo para que objetos de diferentes clases respondan al mismo mensaje.
+Subsección que cubre polimorfismo como mecanismo para que objetos de diferentes clases respondan al mismo mensaje.
 
 #### Funciones Virtuales
 
-**Explicación**: Presenta funciones virtuales puras para interfaces abstractas y destructores virtuales para limpieza segura.
+Presenta funciones virtuales puras para interfaces abstractas y destructores virtuales para limpieza segura.
 
 ```cpp
 class Animal
@@ -507,7 +507,7 @@ public:
 
 #### Ejemplo de Polimorfismo
 
-**Explicación**: Muestra polimorfismo en acción con array de punteros base que apuntan a objetos derivados.
+Muestra polimorfismo en acción con array de punteros base que apuntan a objetos derivados.
 
 ```cpp
 Animal* zoo[ZOO_SIZE];
@@ -526,11 +526,11 @@ for (int i = 0; i < ZOO_SIZE; i++)
 
 ### Sobrecarga de Operadores
 
-**Explicación**: Subsección que explica cómo redefinir operadores para clases personalizadas, permitiendo sintaxis intuitiva.
+Subsección que explica cómo redefinir operadores para clases personalizadas, permitiendo sintaxis intuitiva.
 
 #### Operador de Asignación
 
-**Explicación**: Muestra la implementación del operador de asignación con gestión correcta de memoria y verificación de auto-asignación.
+Muestra la implementación del operador de asignación con gestión correcta de memoria y verificación de auto-asignación.
 
 ```cpp
 Cat& Cat::operator=(const Cat& f)
@@ -548,7 +548,7 @@ Cat& Cat::operator=(const Cat& f)
 
 #### Operadores de Stream
 
-**Explicación**: Ejemplo de sobrecarga del operador `<<` para salida personalizada de objetos, permitiendo integración con flujos.
+Ejemplo de sobrecarga del operador `<<` para salida personalizada de objetos, permitiendo integración con flujos.
 
 ```cpp
 std::ostream& operator<<(std::ostream& os, const Fixed& fixed)
@@ -562,11 +562,11 @@ std::ostream& operator<<(std::ostream& os, const Fixed& fixed)
 
 ## Gestión de Memoria
 
-**Explicación**: Esta sección cubre principios y prácticas para manejo correcto de memoria en C++, incluyendo reglas para gestión.
+Esta sección cubre principios y prácticas para manejo correcto de memoria en C++, incluyendo reglas para gestión.
 
 ### Rule of Three
 
-**Explicación**: Explica la regla que establece que si una clase necesita destructor personalizado, también necesita constructor de copia.
+Explica la regla que establece que si una clase necesita destructor personalizado, también necesita constructor de copia.
 
 Si una clase necesita un destructor personalizado, probablemente necesite también:
 1. Constructor de copia
@@ -585,11 +585,11 @@ public:
 
 ### Deep Copy vs Shallow Copy
 
-**Explicación**: Subsección que contrasta dos enfoques de copia de objetos, destacando los problemas de shallow copy.
+Subsección que contrasta dos enfoques de copia de objetos, destacando los problemas de shallow copy.
 
 #### Shallow Copy (Problemático)
 
-**Explicación**: Muestra copia superficial que duplica punteros pero no datos, causando problemas cuando objetos comparten memoria.
+Muestra copia superficial que duplica punteros pero no datos, causando problemas cuando objetos comparten memoria.
 
 ```cpp
 // Solo copia el puntero, no los datos
@@ -598,7 +598,7 @@ brain = f.brain;  // ¡Ambos objetos apuntan al mismo Brain!
 
 #### Deep Copy (Correcto)
 
-**Explicación**: Presenta copia profunda que crea nuevos objetos independientes, asegurando que cada objeto tenga sus recursos.
+Presenta copia profunda que crea nuevos objetos independientes, asegurando que cada objeto tenga sus recursos.
 
 ```cpp
 // Crea una nueva copia de los datos
@@ -609,15 +609,15 @@ brain = new Brain(*f.brain);  // Cada objeto tiene su propio Brain
 
 ## STL - Standard Template Library
 
-**Explicación**: Esta sección introduce la biblioteca estándar de plantillas de C++, cubriendo contenedores, algoritmos e iteradores.
+Esta sección introduce la biblioteca estándar de plantillas de C++, cubriendo contenedores, algoritmos e iteradores.
 
 ### Contenedores
 
-**Explicación**: Subsección que presenta diferentes tipos de contenedores STL para almacenamiento de datos, cada uno optimizado.
+Subsección que presenta diferentes tipos de contenedores STL para almacenamiento de datos, cada uno optimizado.
 
 #### std::vector
 
-**Explicación**: Describe `std::vector` como contenedor dinámico de array redimensionable, mostrando operación básica de inserción.
+Describe `std::vector` como contenedor dinámico de array redimensionable, mostrando operación básica de inserción.
 
 Contenedor dinámico usado en múltiples ejercicios:<cite/>
 
@@ -628,7 +628,7 @@ _myVector.push_back(value);  // Agregar elemento
 
 #### std::map
 
-**Explicación**: Presenta `std::map` como contenedor asociativo clave-valor ordenado, usado en BitcoinExchange para mapear.
+Presenta `std::map` como contenedor asociativo clave-valor ordenado, usado en BitcoinExchange para mapear.
 
 Contenedor asociativo clave-valor, usado en BitcoinExchange:<cite/>
 
@@ -639,7 +639,7 @@ database[date] = exchangeRate;
 
 #### std::list
 
-**Explicación**: Muestra `std::list` como lista doblemente enlazada, utilizada en PmergeMe para pruebas comparativas.
+Muestra `std::list` como lista doblemente enlazada, utilizada en PmergeMe para pruebas comparativas.
 
 Lista enlazada usada en PmergeMe:<cite/>
 
@@ -651,11 +651,11 @@ for (size_t i = 0; i < vector.size(); i++)
 
 ### Algoritmos STL
 
-**Explicación**: Subsección que cubre algoritmos genéricos de la STL para operaciones comunes como ordenamiento y búsqueda.
+Subsección que cubre algoritmos genéricos de la STL para operaciones comunes como ordenamiento y búsqueda.
 
 #### std::sort
 
-**Explicación**: Muestra `std::sort` para ordenar elementos en contenedores, trabajando con iteradores para definir rangos.
+Muestra `std::sort` para ordenar elementos en contenedores, trabajando con iteradores para definir rangos.
 
 ```cpp
 std::vector<int> sortedNumbers = _myVector;
@@ -664,7 +664,7 @@ std::sort(sortedNumbers.begin(), sortedNumbers.end());
 
 #### std::max_element y std::min_element
 
-**Explicación**: Presenta algoritmos para encontrar elementos extremos en contenedores, devolviendo iteradores a valores.
+Presenta algoritmos para encontrar elementos extremos en contenedores, devolviendo iteradores a valores.
 
 ```cpp
 std::vector<int>::iterator minIt = std::min_element(_myVector.begin(), _myVector.end());
@@ -673,7 +673,7 @@ std::vector<int>::iterator maxIt = std::max_element(_myVector.begin(), _myVector
 
 #### std::find
 
-**Explicación**: Ejemplo de `std::find` en función template que busca valores en contenedores, combinado con `std::distance`.
+Ejemplo de `std::find` en función template que busca valores en contenedores, combinado con `std::distance`.
 
 Usado en el ejercicio easyFind:<cite/>
 
@@ -690,7 +690,7 @@ int easyFind(std::vector<T>& container, int value)
 
 #### std::lower_bound
 
-**Explicación**: Muestra `std::lower_bound` para búsqueda binaria eficiente en contenedores ordenados como `std::map`.
+Muestra `std::lower_bound` para búsqueda binaria eficiente en contenedores ordenados como `std::map`.
 
 Usado en BitcoinExchange para búsqueda binaria eficiente:<cite/>
 
@@ -702,7 +702,7 @@ if (it != database.begin())
 
 ### Iteradores
 
-**Explicación**: Explica iteradores como abstracciones para recorrer contenedores de manera uniforme, mostrando diferentes tipos.
+Explica iteradores como abstracciones para recorrer contenedores de manera uniforme, mostrando diferentes tipos.
 
 Los iteradores permiten recorrer contenedores de manera uniforme:<cite/>
 
@@ -722,15 +722,15 @@ typename MutantStack<T>::iterator end();
 
 ## Entrada/Salida de Archivos (I/O)
 
-**Explicación**: Esta sección cubre operaciones de lectura y escritura de archivos en C++, incluyendo streams y manejo de errores.
+Esta sección cubre operaciones de lectura y escritura de archivos en C++, incluyendo streams y manejo de errores.
 
 ### Streams de Archivos
 
-**Explicación**: Subsección que presenta clases para trabajar con archivos, diferenciando entre streams de entrada y salida.
+Subsección que presenta clases para trabajar con archivos, diferenciando entre streams de entrada y salida.
 
 #### std::ifstream (Lectura)
 
-**Explicación**: Muestra `std::ifstream` para leer archivos, con ejemplo de BitcoinExchange que procesa líneas de CSV.
+Muestra `std::ifstream` para leer archivos, con ejemplo de BitcoinExchange que procesa líneas de CSV.
 
 Usado en BitcoinExchange para leer el archivo CSV:<cite/>
 
@@ -749,7 +749,7 @@ dataFile.close();
 
 #### std::ofstream (Escritura)
 
-**Explicación**: Presenta `std::ofstream` para escribir archivos, encapsulado en clase Files que gestiona ambos tipos de streams.
+Presenta `std::ofstream` para escribir archivos, encapsulado en clase Files que gestiona ambos tipos de streams.
 
 Implementado en el ejercicio Files:<cite/>
 
@@ -769,7 +769,7 @@ public:
 
 ### Manejo de Errores en I/O
 
-**Explicación**: Muestra técnicas para verificar operaciones de archivo exitosas, con ejemplos que verifican apertura.
+Muestra técnicas para verificar operaciones de archivo exitosas, con ejemplos que verifican apertura.
 
 ```cpp
 if (!inputFile.is_open())
@@ -784,11 +784,11 @@ if (!outputFile.is_open())
 
 ### Formato de Archivos
 
-**Explicación**: Subsección que cubre procesamiento de formatos de archivo específicos, con énfasis en parsing de CSV.
+Subsección que cubre procesamiento de formatos de archivo específicos, con énfasis en parsing de CSV.
 
 #### CSV Parsing
 
-**Explicación**: Ejemplo de parsing de archivos CSV usando `std::istringstream` y `std::getline`, extrayendo campos.
+Ejemplo de parsing de archivos CSV usando `std::istringstream` y `std::getline`, extrayendo campos.
 
 En BitcoinExchange se procesan archivos CSV:<cite/>
 
@@ -809,15 +809,15 @@ if (std::getline(iss, dateStr, ',') && std::getline(iss, exchangeStr))
 
 ## Algoritmos Avanzados
 
-**Explicación**: Esta sección presenta algoritmos complejos implementados en los ejercicios, incluyendo ordenamiento y búsqueda.
+Esta sección presenta algoritmos complejos implementados en los ejercicios, incluyendo ordenamiento y búsqueda.
 
 ### Algoritmos de Ordenamiento
 
-**Explicación**: Subsección que cubre algoritmos de ordenamiento, con énfasis en algoritmos híbridos que combinan estrategias.
+Subsección que cubre algoritmos de ordenamiento, con énfasis en algoritmos híbridos que combinan estrategias.
 
 #### Merge-Insertion Sort
 
-**Explicación**: Muestra implementación de algoritmo híbrido que combina merge sort e insertion sort, usado en PmergeMe.
+Muestra implementación de algoritmo híbrido que combina merge sort e insertion sort, usado en PmergeMe.
 
 Implementado en PmergeMe para comparar rendimiento:<cite/>
 
@@ -834,7 +834,7 @@ void vector_mergeInsertionSort(std::vector<int>& vector)
 
 ### Búsqueda Binaria con std::map
 
-**Explicación**: Presenta uso de `std::lower_bound` para búsqueda binaria eficiente en mapas ordenados en BitcoinExchange.
+Presenta uso de `std::lower_bound` para búsqueda binaria eficiente en mapas ordenados en BitcoinExchange.
 
 Usado en BitcoinExchange para búsqueda eficiente:<cite/>
 
@@ -846,7 +846,7 @@ if (it != database.begin() && (it == database.end() || it->first != dateINT))
 
 ### Algoritmo RPN (Notación Polaca Inversa)
 
-**Explicación**: Muestra implementación de calculadora RPN que procesa expresiones matemáticas usando pila, con validación.
+Muestra implementación de calculadora RPN que procesa expresiones matemáticas usando pila, con validación.
 
 Implementado en el ejercicio RPN:<cite/>
 
@@ -872,11 +872,11 @@ double rpn(std::string& input)
 
 ### Algoritmos de Validación
 
-**Explicación**: Subsección que presenta funciones de validación para datos como fechas y números, esenciales para procesamiento.
+Subsección que presenta funciones de validación para datos como fechas y números, esenciales para procesamiento.
 
 #### Validación de Fechas
 
-**Explicación**: Muestra funciones para validar y convertir fechas, incluyendo parsing de strings y conversión a formatos.
+Muestra funciones para validar y convertir fechas, incluyendo parsing de strings y conversión a formatos.
 
 ```cpp
 bool is_valid_date(const std::tm& date);
@@ -886,7 +886,7 @@ int parse_date(std::string& dateString, std::string file);
 
 #### Validación de Números
 
-**Explicación**: Presenta funciones para verificar formatos numéricos en strings, asegurando que datos sean válidos.
+Presenta funciones para verificar formatos numéricos en strings, asegurando que datos sean válidos.
 
 ```cpp
 bool check_int(std::string& str);
@@ -895,7 +895,7 @@ bool check_float(std::string& str);
 
 ### Medición de Rendimiento
 
-**Explicación**: Muestra técnicas para medir tiempo de ejecución usando `clock()`, comparando rendimiento de algoritmos.
+Muestra técnicas para medir tiempo de ejecución usando `clock()`, comparando rendimiento de algoritmos.
 
 En PmergeMe se compara el rendimiento entre diferentes contenedores:<cite/>
 
@@ -919,15 +919,15 @@ double insert_and_sort_list(std::vector<int>& vector)
 
 ## Templates y Programación Genérica
 
-**Explicación**: Esta sección cubre templates como mecanismo para programación genérica en C++, permitiendo código reutilizable.
+Esta sección cubre templates como mecanismo para programación genérica en C++, permitiendo código reutilizable.
 
 ### Templates de Funciones
 
-**Explicación**: Subsección que presenta templates de funciones, mostrando cómo crear funciones genéricas que trabajan con cualquier tipo.
+Subsección que presenta templates de funciones, mostrando cómo crear funciones genéricas que trabajan con cualquier tipo.
 
 #### Templates Básicos
 
-**Explicación**: Muestra templates simples para operaciones comunes como intercambio, mínimo y máximo, que funcionan con cualquier tipo.
+Muestra templates simples para operaciones comunes como intercambio, mínimo y máximo, que funcionan con cualquier tipo.
 
 En el Módulo 07 se implementan templates genéricos para funciones básicas:<cite/>
 
@@ -959,7 +959,7 @@ T max(T a, T b)
 
 #### Templates con Functors
 
-**Explicación**: Presenta función template que aplica un functor a elementos de array, combinando templates de tipos y funciones.
+Presenta función template que aplica un functor a elementos de array, combinando templates de tipos y funciones.
 
 Función template `iter` que aplica una función a cada elemento de un array:<cite/>
 
@@ -985,11 +985,11 @@ struct PrintData
 
 ### Templates de Clases
 
-**Explicación**: Subsección que cubra templates de clases, mostrando cómo crear clases genéricas que encapsulan estructuras.
+Subsección que cubra templates de clases, mostrando cómo crear clases genéricas que encapsulan estructuras.
 
 #### Clase Template Array
 
-**Explicación**: Muestra clase template completa para array dinámico genérico, con constructores, destructor y operadores.
+Muestra clase template completa para array dinámico genérico, con constructores, destructor y operadores.
 
 Implementación completa con constructores, destructor y operadores:<cite/>
 
@@ -1017,7 +1017,7 @@ private:
 
 #### Implementación en Archivo .tpp
 
-**Explicación**: Presenta implementación de métodos template en archivo .tpp separado, mostrando inicialización de array.
+Presenta implementación de métodos template en archivo .tpp separado, mostrando inicialización de array.
 
 ```cpp
 template <typename T>
@@ -1039,11 +1039,11 @@ T& Array<T>::operator[](int index)
 
 ### Templates con Contenedores STL
 
-**Explicación**: Subsección que muestra templates avanzados que interactúan con contenedores STL, creando funciones genéricas.
+Subsección que muestra templates avanzados que interactúan con contenedores STL, creando funciones genéricas.
 
 #### Función easyFind
 
-**Explicación**: Presenta función template que busca elementos en cualquier contenedor STL compatible, usando iteradores.
+Presenta función template que busca elementos en cualquier contenedor STL compatible, usando iteradores.
 
 Template que funciona con cualquier contenedor:<cite/>
 
@@ -1064,7 +1064,7 @@ int easyFind(const T &container, int value)
 
 #### Clase Template MutantStack
 
-**Explicación**: Muestra clase template que hereda de `std::stack` y añade iteradores, usando `typedef typename`.
+Muestra clase template que hereda de `std::stack` y añade iteradores, usando `typedef typename`.
 
 Hereda de `std::stack` e implementa iteradores:<cite/>
 
@@ -1088,7 +1088,7 @@ public:
 
 #### Implementación de Iteradores
 
-**Explicación**: Muestra implementación de métodos iteradores que exponen el contenedor subyacente de `std::stack`.
+Muestra implementación de métodos iteradores que exponen el contenedor subyacente de `std::stack`.
 
 ```cpp
 template <typename T>
@@ -1106,11 +1106,11 @@ typename MutantStack<T>::iterator MutantStack<T>::end()
 
 ### Templates Avanzados en Módulo 09
 
-**Explicación**: Subsección que presenta templates utilitarios avanzados para operaciones comunes como impresión.
+Subsección que presenta templates utilitarios avanzados para operaciones comunes como impresión.
 
 #### Funciones de Utilidad Genéricas
 
-**Explicación**: Muestra templates para imprimir contenedores y verificar si están ordenados, usando iteradores.
+Muestra templates para imprimir contenedores y verificar si están ordenados, usando iteradores.
 
 ```cpp
 template <typename T>
@@ -1148,15 +1148,15 @@ bool isSorted(const T& container)
 
 ## Excepciones y Manejo de Errores
 
-**Explicación**: Esta sección cubre el sistema de excepciones en C++, incluyendo creación de excepciones personalizadas y manejo.
+Esta sección cubre el sistema de excepciones en C++, incluyendo creación de excepciones personalizadas y manejo.
 
 ### Clases de Excepción Personalizadas
 
-**Explicación**: Subsección que muestra cómo crear clases de excepción personalizadas heredando de `std::exception`.
+Subsección que muestra cómo crear clases de excepción personalizadas heredando de `std::exception`.
 
 #### Excepciones Básicas
 
-**Explicación**: Presenta clases de excepción anidadas simples con mensajes fijos, utilizadas para errores específicos.
+Presenta clases de excepción anidadas simples con mensajes fijos, utilizadas para errores específicos.
 
 En el Módulo 05 se definen clases de excepción anidadas:<cite/>
 
@@ -1182,7 +1182,7 @@ public:
 
 #### Excepciones con Constructores Parametrizados
 
-**Explicación**: Muestra excepciones con constructores que aceptan parámetros para personalización, almacenando información.
+Muestra excepciones con constructores que aceptan parámetros para personalización, almacenando información.
 
 ```cpp
 class GradeTooHighException : public std::exception
@@ -1199,7 +1199,7 @@ private:
 
 #### Implementación de what() con Switch
 
-**Explicación**: Presenta implementación de `what()` que usa switch para devolver mensajes diferentes según el flag.
+Presenta implementación de `what()` que usa switch para devolver mensajes diferentes según el flag.
 
 ```cpp
 const char *Form::GradeTooLowException::what() const throw()
@@ -1216,11 +1216,11 @@ const char *Form::GradeTooLowException::what() const throw()
 
 ### Lanzamiento de Excepciones
 
-**Explicación**: Subsección que muestra cómo y dónde lanzar excepciones, incluyendo constructores y métodos que validan.
+Subsección que muestra cómo y dónde lanzar excepciones, incluyendo constructores y métodos que validan.
 
 #### En Constructores
 
-**Explicación**: Ejemplo de constructor que lanza excepciones cuando parámetros están fuera de rango, previniendo creación.
+Ejemplo de constructor que lanza excepciones cuando parámetros están fuera de rango, previniendo creación.
 
 ```cpp
 Bureaucrat::Bureaucrat(std::string name, int grade) : _name(name)
@@ -1235,7 +1235,7 @@ Bureaucrat::Bureaucrat(std::string name, int grade) : _name(name)
 
 #### En Métodos
 
-**Explicación**: Muestra método que lanza excepciones cuando operaciones podrían poner al objeto en estado inválido.
+Muestra método que lanza excepciones cuando operaciones podrían poner al objeto en estado inválido.
 
 ```cpp
 void Bureaucrat::incrementGrade()
@@ -1248,11 +1248,11 @@ void Bureaucrat::incrementGrade()
 
 ### Excepciones en Templates
 
-**Explicación**: Subsección que muestra cómo lanzar excepciones desde templates, incluyendo excepciones estándar.
+Subsección que muestra cómo lanzar excepciones desde templates, incluyendo excepciones estándar.
 
 #### Lanzamiento en Operadores
 
-**Explicación**: Muestra operador de índice en template que lanza `std::out_of_range` cuando el índice está fuera de límites.
+Muestra operador de índice en template que lanza `std::out_of_range` cuando el índice está fuera de límites.
 
 ```cpp
 template <typename T>
@@ -1266,7 +1266,7 @@ T& Array<T>::operator[](int index)
 
 #### Excepciones con Mensajes Dinámicos
 
-**Explicación**: Presenta creación de mensajes de error dinámicos usando `std::ostringstream`, incorporando valores.
+Presenta creación de mensajes de error dinámicos usando `std::ostringstream`, incorporando valores.
 
 ```cpp
 std::ostringstream oss;
@@ -1276,11 +1276,11 @@ throw (std::runtime_error(oss.str()));
 
 ### Manejo Complejo de Excepciones
 
-**Explicación**: Subsección que muestra patrones avanzados de manejo de excepciones, incluyendo bloques anidados.
+Subsección que muestra patrones avanzados de manejo de excepciones, incluyendo bloques anidados.
 
 #### Bloques try-catch Anidados
 
-**Explicación**: Ejemplo de manejo de excepciones en BitcoinExchange donde múltiples operaciones pueden fallar.
+Ejemplo de manejo de excepciones en BitcoinExchange donde múltiples operaciones pueden fallar.
 
 En BitcoinExchange:<cite/>
 
@@ -1299,7 +1299,7 @@ catch(const std::exception& e)
 
 #### Validación Múltiple con Excepciones
 
-**Explicación**: Muestra función que valida múltiples condiciones y lanza excepciones específicas, como división por cero.
+Muestra función que valida múltiples condiciones y lanza excepciones específicas, como división por cero.
 
 En RPN:<cite/>
 
@@ -1325,7 +1325,7 @@ void choose_operator(std::stack<float>& stack, std::string& token)
 
 ### Validación Completa con Excepciones
 
-**Explicación**: Presenta función completa que valida entrada exhaustivamente usando múltiples excepciones, asegurando casos.
+Presenta función completa que valida entrada exhaustivamente usando múltiples excepciones, asegurando casos.
 
 ```cpp
 double rpn(std::string& input)
@@ -1358,11 +1358,11 @@ double rpn(std::string& input)
 
 ### Excepciones en Algoritmos STL
 
-**Explicación**: Muestra cómo validar precondiciones en algoritmos personalizados, lanzando excepciones cuando no se cumplen.
+Muestra cómo validar precondiciones en algoritmos personalizados, lanzando excepciones cuando no se cumplen.
 
 #### Validación en Algoritmos
 
-**Explicación**: Ejemplo de algoritmo que verifica tamaño mínimo antes de ejecutar, lanzando excepción informativa.
+Ejemplo de algoritmo que verifica tamaño mínimo antes de ejecutar, lanzando excepción informativa.
 
 ```cpp
 int Span::shortestSpan(void)
@@ -1378,15 +1378,15 @@ int Span::shortestSpan(void)
 
 ## Type Casting
 
-**Explicación**: Esta sección cubre los cuatro tipos de conversión en C++, explicando cuándo y cómo usar cada uno.
+Esta sección cubre los cuatro tipos de conversión en C++, explicando cuándo y cómo usar cada uno.
 
 ### static_cast
 
-**Explicación**: Subsección que presenta `static_cast` para conversiones seguras y explícitas entre tipos compatibles.
+Subsección que presenta `static_cast` para conversiones seguras y explícitas entre tipos compatibles.
 
 #### Conversiones entre Tipos Primitivos
 
-**Explicación**: Muestra `static_cast` para convertir entre tipos numéricos y caracteres, con validación.
+Muestra `static_cast` para convertir entre tipos numéricos y caracteres, con validación.
 
 ```cpp
 void write_char(int c)
@@ -1415,7 +1415,7 @@ void write_int(double d)
 
 #### Conversiones Encadenadas
 
-**Explicación**: Presenta múltiples conversiones encadenadas usando `static_cast`, transformando un string a diferentes tipos.
+Presenta múltiples conversiones encadenadas usando `static_cast`, transformando un string a diferentes tipos.
 
 ```cpp
 void print_int(std::string str)
@@ -1434,11 +1434,11 @@ void print_int(std::string str)
 
 ### reinterpret_cast
 
-**Explicación**: Subsección que explica `reinterpret_cast` para conversiones de bajo nivel entre tipos no relacionados.
+Subsección que explica `reinterpret_cast` para conversiones de bajo nivel entre tipos no relacionados.
 
 #### Conversión de Punteros
 
-**Explicación**: Muestra `reinterpret_cast` para serializar punteros a enteros y viceversa, útil para almacenamiento.
+Muestra `reinterpret_cast` para serializar punteros a enteros y viceversa, útil para almacenamiento.
 
 ```cpp
 uintptr_t serialize(Data *ptr)
@@ -1454,11 +1454,11 @@ Data *deserialize(uintptr_t raw)
 
 ### dynamic_cast
 
-**Explicación**: Subsección que cubre `dynamic_cast` para conversiones seguras en jerarquías polimórficas, identificando tipos.
+Subsección que cubre `dynamic_cast` para conversiones seguras en jerarquías polimórficas, identificando tipos.
 
 #### Identificación de Tipos con Punteros
 
-**Explicación**: Muestra `dynamic_cast` con punteros que devuelve `nullptr` en fallo, permitiendo intentar conversiones.
+Muestra `dynamic_cast` con punteros que devuelve `nullptr` en fallo, permitiendo intentar conversiones.
 
 ```cpp
 void identify(Base* p)
@@ -1483,7 +1483,7 @@ void identify(Base* p)
 
 #### Identificación de Tipos con Referencias
 
-**Explicación**: Presenta `dynamic_cast` con referencias que lanza excepciones en fallo, requiriendo bloques try-catch.
+Presenta `dynamic_cast` con referencias que lanza excepciones en fallo, requiriendo bloques try-catch.
 
 ```cpp
 void identify(Base& p)

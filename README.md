@@ -284,8 +284,6 @@ int parse_date(std::string& dateString, std::string file)  // paso por REFERENCI
 
 Presenta el concepto de sobrecarga de funciones, permitiendo múltiples funciones con el mismo nombre pero diferentes parámetros.
 
-Puedes tener múltiples funciones con el mismo nombre pero diferentes parámetros:<cite/>
-
 ```cpp
 void addNumber(int value);
 void addArray(int array[], size_t size);

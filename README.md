@@ -161,7 +161,7 @@ Muestra operadores aritméticos básicos implementados mediante sobrecarga en el
 En el ejercicio Fixed se implementan operaciones aritméticas con sobrecarga:<cite/>
 
 ```cpp
-Fixed a;
+Fixed a;  // Ya lo veremos más adelante pero Fixed es un tipo de objeto.
 Fixed b;
 Fixed result = a + b;  // Suma
 result = a - b;        // Resta

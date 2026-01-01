@@ -432,10 +432,10 @@ PhoneBook::PhoneBook() : _id(0)
 }
 
 // Constructor de copia
-Cat::Cat(const Cat& f) : Animal(f)
+Cat::Cat(const Cat& f) : Animal(f)  // Copia correctamente la parte Animal del objeto Cat (de la que hereda)
 {
-    brain = NULL;
-    *this = f;
+    brain = NULL; // Se evita que brain apunte a basura
+    *this = f;  // Se usa el operador de asignación (operator=) dentro del constructor de copia
 }
 ```
 

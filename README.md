@@ -538,10 +538,13 @@ Cat& Cat::operator=(const Cat& f)
 {
     if (this != &f)
     {
-        _type = f._type;
-        if (brain)
-            delete brain;
-        brain = new Brain(*f.brain);
+        _type = f._type;  // Copiamos los atributos simples (no dinámicos)
+        if (brain)        // Liberamos la memoria actual del objeto
+            delete brain; // para evitar fugas de memoria
+
+        brain = new Brain(*f.brain); // Realizamos una copia profunda del objeto Brain
+                                    // No estamos copiando el puntero,
+                        // estamos creando un objeto nuevo en memoria con el mismo contenido.
     }
     return (*this);
 }

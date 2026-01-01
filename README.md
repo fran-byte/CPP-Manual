@@ -24,7 +24,7 @@
 
 ## Introducción
 
-Esta sección presenta el manual y su propósito, explicando que está diseñado para guiar a través del repositorio CPP_Piscine, que contiene 10 módulos progresivos que enseñan C++ desde lo básico hasta conceptos avanzados utilizando el estándar C++98.
+Esta sección presenta el manual y su propósito, explicando que está diseñado para guiar a través del repositorio de los proyectos CPP de 42 que contiene 10 módulos progresivos que enseñan C++ desde lo básico hasta conceptos avanzados utilizando el estándar C++98.
 
 Este manual está diseñado para llevarte desde cero hasta el nivel necesario para resolver todos los ejercicios del repositorio **CPP_Piscine**. El repositorio contiene 10 módulos progresivos que enseñan C++ siguiendo el estándar C++98, desde conceptos básicos hasta programación avanzada con STL.<cite/>
 

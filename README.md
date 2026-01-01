@@ -555,10 +555,14 @@ Cat& Cat::operator=(const Cat& f)
 Ejemplo de sobrecarga del operador `<<` para salida personalizada de objetos, permitiendo integración con flujos.
 
 ```cpp
+// Permite mostrar un objeto Fixed directamente en un flujo de salida
+// por ejemplo: std::cout << fixed;
 std::ostream& operator<<(std::ostream& os, const Fixed& fixed)
 {
-    os << fixed.toFloat();
+    os << fixed.toFloat(); // lo enviamos al flujo de salida (cout, ofstream, etc.)
     return os;
+    // Devolvemos el mismo flujo para permitir encadenar salidas
+    // ejemplo: std::cout << a << b << c;
 }
 ```
 

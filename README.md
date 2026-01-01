@@ -261,7 +261,7 @@ void add_contact();
 void search_and_print_contact();
 
 // Definición en el archivo .cpp
-void PhoneBook::add_contact()
+void PhoneBook::add_contact() // este enconcreto es un método de la clase PhoneBook.
 {
     // Implementación
 }

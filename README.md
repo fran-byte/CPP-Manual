@@ -520,7 +520,9 @@ for (int i = 0; i < ZOO_SIZE; i++)
 }
 
 for (int i = 0; i < ZOO_SIZE; i++)
-    zoo[i]->makeSound();  // Llamada polimórfica
+    zoo[i]->makeSound();  // Llamada polimórfica, llama tanto al metodo de Dog como al de Cat
+                        // Si es Dog → llama a Dog::makeSound()
+                        // Si es Cat → llama a Cat::makeSound()
 ```
 
 ### Sobrecarga de Operadores

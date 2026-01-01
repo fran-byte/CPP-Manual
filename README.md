@@ -272,7 +272,7 @@ void PhoneBook::add_contact() // este enconcreto es un método de la clase Phone
 Muestra ejemplos de funciones con parámetros y valores de retorno, ilustrando cómo las funciones procesan datos.
 
 ```cpp
-int parse_date(std::string& dateString, std::string file)  paso por REFERENCIA vs paso por COPIA
+int parse_date(std::string& dateString, std::string file)  // paso por REFERENCIA vs paso por COPIA
 {
     std::tm date = {};
     // ... procesamiento

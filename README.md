@@ -499,7 +499,8 @@ public:
 class Dog : public Animal
 {
 public:
-    void makeSound() const override;     // Sobrescritura
+    void makeSound() const override;     // Sobrescribir (override) = redefinir una función virtual heredada
+                                        // está obligada a implementar esa función
 };
 ```
 

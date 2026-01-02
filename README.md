@@ -23,17 +23,16 @@
 
 ## Introducción
 
-Esta sección presenta el manual y su propósito, explicando que está diseñado para guiar a través del repositorio de los proyectos CPP de 42 que contiene 10 módulos progresivos que enseñan C++ desde lo básico hasta conceptos avanzados utilizando el estándar C++98.
+Esta sección presenta el manual y su propósito, explicando que está diseñado para guiar a través del manual de los proyectos CPP de 42 que contiene 10 módulos progresivos que enseñan C++ desde lo básico hasta conceptos avanzados utilizando el estándar C++98.
 
-Este manual está diseñado para llevarte desde cero hasta el nivel necesario para resolver todos los ejercicios del repositorio **CPP_Piscine**. El repositorio contiene 10 módulos progresivos que enseñan C++ siguiendo el estándar C++98, desde conceptos básicos hasta programación avanzada con STL.
+Contiene 10 módulos progresivos que enseñan C++ siguiendo el estándar C++98, desde conceptos básicos hasta programación avanzada con STL.
 
 El estándar C++98 es la primera versión estandarizada del lenguaje y aunque posteriormente han surgido versiones más modernas (C++11, C++14, C++17, C++20), entender C++98 es fundamental para comprender las bases del lenguaje y su evolución. En el contexto de 42, se utiliza este estándar para asegurar un aprendizaje sólido de los conceptos fundamentales antes de abordar características más avanzadas.
 
-### Estructura del Repositorio
+### Estructura
 
-Presenta una tabla organizada de los 10 módulos del repositorio, mostrando el enfoque principal y ejercicios clave de cada uno para proporcionar una visión general del aprendizaje progresivo.
+La tabla organizada de los 10 módulos de CPP, mostrando el enfoque principal y ejercicios clave de cada uno para proporcionar una visión general del aprendizaje progresivo.
 
-El repositorio está organizado en 10 módulos, cada uno enfocado en conceptos específicos:
 
 | Módulo | Enfoque Principal | Ejercicios Clave |
 |--------|------------------|------------------|
@@ -94,7 +93,7 @@ La función `main` debe existir exactamente una vez en cada programa C++. El tip
 
 Describe las directivas `#include` para incluir cabeceras, diferenciando entre cabeceras estándar de la biblioteca y cabeceras personalizadas del proyecto.
 
-Las directivas `#include` permiten incluir cabeceras. En este repositorio se usan dos tipos:
+Las directivas `#include` permiten incluir cabeceras. En este manual se usan dos tipos:
 
 ```cpp
 // Cabeceras estándar
@@ -142,9 +141,9 @@ Esta sección presenta los tipos de datos fundamentales en C++, métodos de decl
 
 ### Tipos Fundamentales
 
-Lista los tipos básicos de datos utilizados en los ejercicios del repositorio, incluyendo tipos primitivos y la clase `std::string` para manejo de cadenas.
+Lista los tipos básicos de datos utilizados en los ejercicios de los CPP, incluyendo tipos primitivos y la clase `std::string` para manejo de cadenas.
 
-En los ejercicios del repositorio encontrarás los siguientes tipos básicos:
+En los ejercicios del manual encontrarás los siguientes tipos básicos:
 
 ```cpp
 int         // Números enteros (típicamente 4 bytes, rango aprox. ±2.1 mil millones)

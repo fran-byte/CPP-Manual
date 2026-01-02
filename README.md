@@ -18,7 +18,6 @@
 14. [Templates y Programación Genérica](#templates-y-programación-genérica)
 15. [Excepciones y Manejo de Errores](#excepciones-y-manejo-de-errores)
 16. [Type Casting](#type-casting)
-17. [Conclusiones y Próximos Pasos](#conclusiones-y-próximos-pasos)
 
 ---
 

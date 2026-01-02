@@ -1,4 +1,4 @@
-# Manual Completo de C++ - CPP 42
+# Manual Completo de C++ para 42
 
 ## 📚 Índice de Contenidos
 
